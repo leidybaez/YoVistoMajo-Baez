@@ -74,12 +74,12 @@ a:visited {
 
 @mixin title__style {
   color: #fbc6a4;
-      font-style: italic;
-      font-weight: $bold-weight;
-      font-size: 25px;
-      font-family: "Viaoda Libre", cursive;
-      text-align: center;
-      letter-spacing: 1px;
+  font-style: italic;
+  font-weight: $bold-weight;
+  font-size: 25px;
+  font-family: "Viaoda Libre", cursive;
+  text-align: center;
+  letter-spacing: 1px;
 }
 
 .contenido__intro {
