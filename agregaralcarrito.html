@@ -21,7 +21,7 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/6fc427bed8.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="scss/style.css">
   <script src="https://kit.fontawesome.com/6fc427bed8.js" crossorigin="anonymous"></script>
 </head>
 
@@ -30,34 +30,77 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
       <div class="container-fluid d-flex justify-content-between">
         <div>
-          <a class="navbar-brand" href="#">
-            <img class="animate__animated animate__pulse animate__delay-2s" src="Fotos/majoblanco-min.jpg"
-              alt="Imagen Majo Colecciones" id="logoMajo" />
-          </a>
+          <div class="d-flex">
+            <a class="navbar-brand" href="#">
+              <img
+                class="animate__animated animate__pulse animate__delay-2s"
+                src="Fotos/majoblanco-min.jpg"
+                alt="Imagen Majo Colecciones"
+                id="logoMajo"
+              />
+            </a>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
         </div>
         <div>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Principal</a>
+              <li class="nav-item px-3">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="index.html"
+                  >Principal</a
+                >
               </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="colecciones.html">Colecciones</a>
+              <li class="nav-item px-3">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="colecciones.html"
+                  >Colecciones</a
+                >
               </li>
-              <li class="nav-item">
-                <a class="nav-link" tabindex="-1" aria-disabled="true" href="agregaralcarrito.html">Productos</a>
+              <li class="nav-item px-3">
+                <a
+                  class="nav-link"
+                  tabindex="-1"
+                  aria-disabled="false"
+                  href="agregaralcarrito.html"
+                  >Productos</a
+                >
               </li>
-              <li class="nav-item">
-                <a class="nav-link" tabindex="-1" aria-disabled="true" href="ayuda.html">Ayuda</a>
+              <li class="nav-item px-3">
+                <a
+                  class="nav-link"
+                  tabindex="-1"
+                  aria-disabled="false"
+                  href="ayuda.html"
+                  >Ayuda</a
+                >
               </li>
-              <li class="nav-item">
-                <a class="nav-link" tabindex="-1" aria-disabled="true" href="acercadenosotros.html">Nosotros</a>
+              <li class="nav-item px-3">
+                <a
+                  class="nav-link"
+                  tabindex="-1"
+                  aria-disabled="false"
+                  href="acercadenosotros.html"
+                  >Nosotros</a
+                >
               </li>
             </ul>
           </div>
@@ -65,6 +108,7 @@
       </div>
     </nav>
   </header>
+
   <main class="">
     <!--PRIMERA SECCIÓN-->
     <h1 class="
@@ -85,10 +129,10 @@
           ">
         VESTIDOS
       </h2>
-      <div class="mx-3">
-        <div class="row gx-5 justify-content-around">
-          <div class="col-3">
-            <div class="card" style="width: 18rem">
+      <div class="mx-3 mx-auto">
+        <div class="row gx-5 justify-content-center">
+          <div class="col-11 col-sm-5 col-md-3 mx-auto my-4 my-lg-0">
+            <div class="card mx-auto" style="width: 18rem">
               <img src="Fotos/vestido1-min.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Precio</h5>
@@ -112,8 +156,9 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="card" style="width: 18rem">
+
+          <div class="col-11 col-sm-5 col-md-3 mx-auto my-4 my-lg-0">
+            <div class="card mx-auto" style="width: 18rem">
               <img src="Fotos/vestido2-min.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Precio</h5>
@@ -136,8 +181,9 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="card" style="width: 18rem">
+
+          <div class="col-11 col-sm-5 col-md-3 mx-auto my-4 my-lg-0">
+            <div class="card mx-auto" style="width: 18rem">
               <img src="Fotos/vestido3-min.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Precio</h5>
@@ -160,8 +206,9 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="card" style="width: 18rem;">
+
+          <div class="col-11 col-sm-5 col-md-3 mx-auto my-4 my-lg-0">
+            <div class="card mx-auto" style="width: 18rem;">
               <img src="Fotos\Bootstrap Carrousel\Vestido_4.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Precio</h5>
@@ -200,8 +247,8 @@
       </h2>
       <div class="mx-3">
         <div class="row gx-5 justify-content-between">
-          <div class="col-3">
-            <div class="card" style="width: 18rem">
+          <div class="col-11 col-sm-5 col-md-3 mx-auto my-4 my-lg-0">
+            <div class="mx-auto" style="width: 18rem">
               <img src="Fotos/falda1-min.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Precio</h5>
@@ -224,8 +271,8 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="card" style="width: 18rem">
+          <div class="col-11 col-sm-5 col-md-3 mx-auto my-4 my-lg-0">
+            <div class="mx-auto" style="width: 18rem">
               <img src="Fotos/falda2-min.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Precio</h5>
@@ -248,8 +295,8 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="card" style="width: 18rem">
+          <div class="col-11 col-sm-5 col-md-3 mx-auto my-4 my-lg-0">
+            <div class="mx-auto" style="width: 18rem">
               <img src="Fotos/falda3-min.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Precio</h5>
@@ -272,8 +319,8 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="card" style="width: 18rem">
+          <div class="col-11 col-sm-5 col-md-3 mx-auto my-4 my-lg-0">
+            <div class="mx-auto" style="width: 18rem">
               <img src="Fotos/falda4-min.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Precio</h5>
@@ -312,8 +359,8 @@
       </h2>
       <div class="mx-3">
         <div class="row gx-5 justify-content-between">
-          <div class="col-3">
-            <div class="card" style="width: 18rem">
+          <div class="col-11 col-sm-5 col-md-3 mx-auto my-4 my-lg-0">
+            <div class="mx-auto" style="width: 18rem">
               <img src="Fotos/blusa1-min.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Precio</h5>
@@ -336,8 +383,8 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="card" style="width: 18rem">
+          <div class="col-11 col-sm-5 col-md-3 mx-auto my-4 my-lg-0">
+            <div class="mx-auto" style="width: 18rem">
               <img src="Fotos/blusa2-min.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Precio</h5>
@@ -360,8 +407,8 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="card" style="width: 18rem">
+          <div class="col-11 col-sm-5 col-md-3 mx-auto my-4 my-lg-0">
+            <div class="mx-auto" style="width: 18rem">
               <img src="Fotos/blusa3-min.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Precio</h5>
@@ -384,8 +431,8 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="card" style="width: 18rem">
+          <div class="col-11 col-sm-5 col-md-3 mx-auto my-4 my-lg-0">
+            <div class="mx-auto" style="width: 18rem">
               <img src="Fotos/blusaportada-min.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Precio</h5>
@@ -424,7 +471,7 @@
       </h2>
       <div class="mx-3">
         <div class="row gx-5">
-          <div class="col-6">
+          <div class="col-11 col-sm-5 col-md-3 mx-auto my-4 my-lg-0">
             <div class="card mx-auto" style="width: 70%">
               <img src="Fotos/accesorioportada-min.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -436,7 +483,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-11 col-sm-5 col-md-3 mx-auto my-4 my-lg-0">
             <div class="card mx-auto" style="width: 70%">
               <img src="Fotos/blusa2-min.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -452,33 +499,26 @@
       </div>
     </div>
   </main>
+
   <footer>
-    <!--AÑO, NOMBRE DE LA MARCA. CIUDAD Y PAÍS DONDE RESIDE LA MARCA E ÍCONOS DE REDES SOCIALES COMO ACCESO DIRECTO-->
-    <div class="contenedor__footer">
-      <div>
-        <p>2021, MAJO</p>
+      <!--AÑO, NOMBRE DE LA MARCA. CIUDAD Y PAÍS DONDE RESIDE LA MARCA E ÍCONOS DE REDES SOCIALES COMO ACCESO DIRECTO-->
+      <div class="d-flex justify-content-lg-between align-items-center flex-column flex-lg-row">
+        <div>
+          <p>2021, MAJO</p>
+        </div>
+        <div>
+          <p>Concepción, Chile</p>
+        </div>
+        <div class="iconos__footer">
+          <nav>
+            <a href="" class="px-5 px-lg-2"><i class="fab fa-whatsapp"></i></a>
+            <a href="" class="px-5 px-lg-2"><i class="fab fa-instagram"></i></a>
+            <a href="" class="px-5 px-lg-2"><i class="fab fa-facebook-square"></i></a>
+            <a href="" class="px-5 px-lg-2"><i class="fab fa-twitter"></i></a>
+          </nav>
+        </div>
       </div>
-      <div>
-        <p>Concepción, Chile</p>
-      </div>
-
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="/index.html">Principal</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Productos</li>
-        </ol>
-      </nav>
-
-      <div class="iconos__footer">
-        <nav>
-          <a href=""><i class="fab fa-whatsapp"></i></a>
-          <a href=""><i class="fab fa-instagram"></i></a>
-          <a href=""><i class="fab fa-facebook-square"></i></a>
-          <a href=""><i class="fab fa-twitter"></i></a>
-        </nav>
-      </div>
-    </div>
-  </footer>
+    </footer>
 </body>
 
 </html>
