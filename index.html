@@ -34,7 +34,7 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="scss/style.css" />
     <script
       src="https://kit.fontawesome.com/6fc427bed8.js"
       crossorigin="anonymous"
@@ -46,26 +46,28 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
         <div class="container-fluid d-flex justify-content-between">
           <div>
-            <a class="navbar-brand" href="#">
-              <img
-                class="animate__animated animate__pulse animate__delay-2s"
-                src="Fotos/majoblanco-min.jpg"
-                alt="Imagen Majo Colecciones"
-                id="logoMajo"
-              />
-            </a>
+            <div class="d-flex">
+              <a class="navbar-brand" href="#">
+                <img
+                  class="animate__animated animate__pulse animate__delay-2s"
+                  src="Fotos/majoblanco-min.jpg"
+                  alt="Imagen Majo Colecciones"
+                  id="logoMajo"
+                />
+              </a>
 
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
           </div>
           <div>
             <div
@@ -73,7 +75,7 @@
               id="navbarSupportedContent"
             >
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
+                <li class="nav-item px-3">
                   <a
                     class="nav-link active"
                     aria-current="page"
@@ -81,7 +83,7 @@
                     >Principal</a
                   >
                 </li>
-                <li class="nav-item">
+                <li class="nav-item px-3">
                   <a
                     class="nav-link"
                     aria-current="page"
@@ -89,7 +91,7 @@
                     >Colecciones</a
                   >
                 </li>
-                <li class="nav-item">
+                <li class="nav-item px-3">
                   <a
                     class="nav-link"
                     tabindex="-1"
@@ -98,7 +100,7 @@
                     >Productos</a
                   >
                 </li>
-                <li class="nav-item">
+                <li class="nav-item px-3">
                   <a
                     class="nav-link"
                     tabindex="-1"
@@ -107,7 +109,7 @@
                     >Ayuda</a
                   >
                 </li>
-                <li class="nav-item">
+                <li class="nav-item px-3">
                   <a
                     class="nav-link"
                     tabindex="-1"
@@ -122,6 +124,7 @@
         </div>
       </nav>
     </header>
+    
     <main>
       <section>
         <!--PRIMERA SECCIÓN-->
@@ -130,17 +133,20 @@
         <!--IMAGEN PRINCIPAL DE REFERENCIA DE LA MARCA MAJO-->
         <div class="contenido__intro">
           <div class="container mt-4">
-            <div class="row d-flex justify-content-between">
-              <div class="col-8">
+            <div class="row d-flex justify-content-between mx-auto">
+              <div class="col-11 col-lg-8">
                 <img
                   src="Fotos/portadaindex-min.png"
                   alt="Imagen Majo Colecciones"
                 />
               </div>
-              <div class="col-3">
+              <div class="col-11 col-lg-3">
                 <div class="aside__content">
                   <h1
                     class="
+                      pb-lg-3
+                      py-sm-3
+                      py-lg-0
                       aside_content--title-style
                       animate__animated animate__backInDown animate__delay-1s
                     "
@@ -170,33 +176,33 @@
 
       <section>
         <!--SEGUNDA SECCIÓN-->
-        <div class="contenido__fotos mt-5">
-          <div class="caja__Uno">
-            <h2 class="text-center">VESTIDOS</h2>
+        <div class="mt-5 row">
+          <div class="caja__Uno col-lg-6">
+            <h2 class="text-center py-3">VESTIDOS</h2>
             <!--IMAGEN REFERENCIAL PARA COMPRA DE VESTIDOS-->
             <img
               src="Fotos/vestidoportada-min.jpg"
               alt="Imagen Majo Colecciones"
             />
           </div>
-          <div class="caja__Dos">
-            <h2 class="text-center">FALDAS</h2>
+          <div class="caja__Dos col-lg-6">
+            <h2 class="text-center py-3">FALDAS</h2>
             <!--IMAGEN REFERENCIAL PARA COMPRA DE FALDAS-->
             <img
               src="Fotos/portadafalda-min.jpg"
               alt="Imagen Majo Colecciones"
             />
           </div>
-          <div class="caja__Tres">
-            <h2 class="text-center">BLUSAS</h2>
+          <div class="caja__Tres col-lg-6">
+            <h2 class="text-center py-3">BLUSAS</h2>
             <!--IMAGEN REFERENCIAL PARA COMPRA DE BLUSAS-->
             <img
               src="Fotos/blusaportada-min.jpg"
               alt="Imagen Majo Colecciones"
             />
           </div>
-          <div class="caja__Cuatro">
-            <h2 class="text-center">ACCESORIOS</h2>
+          <div class="caja__Cuatro col-lg-6">
+            <h2 class="text-center py-3">ACCESORIOS</h2>
             <!--IMAGEN REFERENCIAL DE ACCESORIOS-->
             <img
               src="Fotos/accesorioportada-min.jpg"
@@ -211,7 +217,7 @@
           <!--IMAGEN REFERENCIAL DE OPINIONES DE LA PÁGINA WEB-->
           <!--<img src="Fotos/opinionindex.jpg" alt="Imagen Majo Colecciones">-->
           <div>
-            <h6>
+            <h6 class="w-75 mx-auto py-4">
               Tu opinión es importante para nosotros. Haz clic acá y déjanos un
               mensaje. Te contestamos en la brevedad de lo posible.
             </h6>
@@ -224,9 +230,9 @@
                   >Mensaje</label
                 >
                 <textarea
-                  class="form-control w-25 mx-auto"
+                  class="form-control w-50 mx-auto"
                   id="exampleFormControlTextarea1"
-                  rows="3"
+                  rows="5"
                 ></textarea>
               </div>
               <div>
@@ -240,7 +246,7 @@
     </main>
     <footer>
       <!--AÑO, NOMBRE DE LA MARCA. CIUDAD Y PAÍS DONDE RESIDE LA MARCA E ÍCONOS DE REDES SOCIALES COMO ACCESO DIRECTO-->
-      <div class="contenedor__footer">
+      <div class="d-flex justify-content-lg-between align-items-center flex-column flex-lg-row">
         <div>
           <p>2021, MAJO</p>
         </div>
@@ -249,10 +255,10 @@
         </div>
         <div class="iconos__footer">
           <nav>
-            <a href=""><i class="fab fa-whatsapp"></i></a>
-            <a href=""><i class="fab fa-instagram"></i></a>
-            <a href=""><i class="fab fa-facebook-square"></i></a>
-            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href="" class="px-5 px-lg-2"><i class="fab fa-whatsapp"></i></a>
+            <a href="" class="px-5 px-lg-2"><i class="fab fa-instagram"></i></a>
+            <a href="" class="px-5 px-lg-2"><i class="fab fa-facebook-square"></i></a>
+            <a href="" class="px-5 px-lg-2"><i class="fab fa-twitter"></i></a>
           </nav>
         </div>
       </div>
